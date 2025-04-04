@@ -1,0 +1,26 @@
+original_code,submitted_code,label
+"def multiply(a, b): return a * b","def product(x, y): return x * y",1
+"def prime_check(n): return all(n % i != 0 for i in range(2, int(n**0.5)+1))","def is_prime(n): return all(n % i != 0 for i in range(2, int(n**0.5)+1))",1
+"def prime_check(n): return all(n % i != 0 for i in range(2, int(n**0.5)+1))","def multiply(a, b): return a * b",0
+def even_or_odd(n): return 'Even' if n % 2 == 0 else 'Odd',def check_parity(x): return 'Even' if x % 2 == 0 else 'Odd',1
+def count_vowels(s): return sum(1 for c in s if c in 'aeiouAEIOU'),def vowel_count(text): return sum(1 for ch in text if ch in 'aeiouAEIOU'),1
+"def prime_check(n): return all(n % i != 0 for i in range(2, int(n**0.5)+1))","def is_prime(n): return all(n % i != 0 for i in range(2, int(n**0.5)+1))",1
+def fibonacci(n): return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2),def reverse_string(s): return s[::-1],0
+"def multiply(a, b): return a * b","def product(x, y): return x * y",1
+def even_or_odd(n): return 'Even' if n % 2 == 0 else 'Odd',"def multiply(a, b): return a * b",0
+def count_vowels(s): return sum(1 for c in s if c in 'aeiouAEIOU'),def vowel_count(text): return sum(1 for ch in text if ch in 'aeiouAEIOU'),1
+"def prime_check(n): return all(n % i != 0 for i in range(2, int(n**0.5)+1))","def is_prime(n): return all(n % i != 0 for i in range(2, int(n**0.5)+1))",1
+"def add(a, b): return a + b",def reverse_string(s): return s[::-1],0
+"def add(a, b): return a + b",def square(n): return n ** 2,0
+def fibonacci(n): return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2),def fib(n): return n if n <= 1 else fib(n-1) + fib(n-2),1
+def count_vowels(s): return sum(1 for c in s if c in 'aeiouAEIOU'),def even_or_odd(n): return 'Even' if n % 2 == 0 else 'Odd',0
+def even_or_odd(n): return 'Even' if n % 2 == 0 else 'Odd',"def prime_check(n): return all(n % i != 0 for i in range(2, int(n**0.5)+1))",0
+"def gcd(a, b): return a if b == 0 else gcd(b, a % b)",def even_or_odd(n): return 'Even' if n % 2 == 0 else 'Odd',0
+def is_palindrome(s): return s == s[::-1],"def prime_check(n): return all(n % i != 0 for i in range(2, int(n**0.5)+1))",0
+"def multiply(a, b): return a * b","def product(x, y): return x * y",1
+def is_palindrome(s): return s == s[::-1],def check_palindrome(word): return word == word[::-1],1
+def factorial(n): return 1 if n == 0 else n * factorial(n-1),def fact(n): return 1 if n == 0 else n * fact(n-1),1
+def square(n): return n ** 2,def power_two(x): return x ** 2,1
+"def add(a, b): return a + b","def sum_numbers(x, y): return x + y",1
+"def gcd(a, b): return a if b == 0 else gcd(b, a % b)","def greatest_common_divisor(x, y): return x if y == 0 else greatest_common_divisor(y, x % y)",1
+"def gcd(a, b): return a if b == 0 else gcd(b, a % b)","def add(a, b): return a + b",0
