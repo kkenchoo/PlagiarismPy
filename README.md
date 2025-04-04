@@ -1,4 +1,4 @@
-# # Python Code Plagiarism Detection
+# Python Code Plagiarism Detection
 
 This project implements a plagiarism detection system for Python code using a combination of CodeBERT embeddings, Abstract Syntax Tree (AST) features, and style-based similarity metrics. The system is designed to compare two Python code snippets and provide a similarity score, highlighting potential plagiarism.
 
